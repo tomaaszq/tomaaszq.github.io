@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta charset="utf-8">
-<title>My video web document</title>
+<title>Tomasz Rudowicz</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script> 
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 </head>
+
+
 <body>
 <div class="slide">
 <video autoplay loop poster="pic/poster.jpg" id="bgvid">
@@ -15,15 +21,17 @@
 <h1>
 	Hello!
 </h1>
-<button type="button" class="btn btn-primary btn-lg btn-block btn-responsive">Block level button</button>
+<a href="#content" class="smoothScroll"><button type="button" class="btn  btn-block btn-responsive">READ</button></a>
 </div>
 </div>
-<div class="slide">
+
+<div class="slide" id="content">
 	<div class="something">
 		<h1>
 			asdf
 		</h1>
 	</div>
 </div>
+
 </body>
 </html>
