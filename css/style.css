@@ -1,5 +1,5 @@
 body,html {
-	background-color: #000;
+	background-color: #000 !important;
 	height: 100%;
 	width: 100%;
 	margin:0 !important;
@@ -21,10 +21,9 @@ body,html {
 .hello {
 	position: absolute;
 	top:40%;
-	left: 45%;
+	left: 35%;
+	right: 35%;
 	background-color: transparent;
-	width: 100px;
-	height: 30px;
 	margin: 0 auto;
 	z-index:1;
 }
@@ -37,11 +36,17 @@ body,html {
 	padding: 0 !important;
 }
 h1 {
-	color: #fff;
-	opacity: 1.4;
+	color: #fff !important;
+	opacity: 1;
+	text-align: center;
 }
-.second {
-	height: 1000px;
-	width: 200px;
+.something {
+	position: absolute;
+	top:140%;
+	left: 45%;
+	background-color: transparent;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	z-index:1;
 }
-
