@@ -87,6 +87,17 @@ h1 {
 #portfolio a {
 	text-decoration: none;
 	color: #fff;
+	-webkit-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+#portfolio a:hover {
+	color: #EB6B52;
+	-webkit-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
 }
 
 
@@ -112,6 +123,9 @@ h1 {
 .btn:hover, .btn:focus, .btn:active {
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
+}
+a:hover {
+	text-decoration: none !important;
 }
 
 /* media queries */
