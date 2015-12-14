@@ -2,38 +2,67 @@
 <html>
 
 <head>
-<meta charset="utf-8">
-<title>Tomasz Rudowicz</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/smoothscroll.js"></script> 
-<link href='https://fonts.googleapis.com/css?family=Exo+2:900,700&subset=latin-ext' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<title>Tomasz Rudowicz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/move.js"></script>  
+	<link href='https://fonts.googleapis.com/css?family=Exo+2:900,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 </head>
 
 
 <body>
-<div class="slide">
-<video autoplay loop poster="pic/poster.jpg" id="bgvid">
-	<source src="video/night.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-	<source src="video/night.ogv" type="video/ogg">
-	<source src="video/night.webm" type="video/webm">
-</video>
-<div class="hello">
-<h1>
-	Hello!
-</h1>
-<a href="#content" class="smoothScroll"><button type="button" class="btn  btn-block btn-responsive">READ</button></a>
-</div>
-</div>
+	<div class="slide">
+		<video autoplay loop poster="pic/poster.jpg" id="bgvid">
+			<source src="video/night.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+				<source src="video/night.ogv" type="video/ogg">
+					<source src="video/night.webm" type="video/webm">
+					</video>
+					<div class="hello">
+						<h1>
+							Hello!
+						</h1>
+						<a href="#content" class="smoothScroll"><button type="button" class="btn  btn-block btn-responsive">READ</button></a>
+					</div>
+				</div>
 
-<div class="slide" id="content">
-	<div class="something">
-		<h1>
-			asdf
-		</h1>
-	</div>
-</div>
+				<div class="slide" id="content">
+					<div class="myStuff">
+					<div class="aboutMe move col-md-12">
+						<article>
+							Hi there! My name is Tomasz and I am from Wrocław/Poland. I'm studying electronics on Wrocław University of Technology, and to be honest I'm doing well in this! Even I got an award(grant) for students with best marks. I'm interested in front-end for two years, and all this stuff is for me a good fun, hobby and hard work. In sites/web apps most important for me is simplicity and quality.
+						</article>
+					</div>
+						<div class="box move2 col-md-4 col-sm-12">
+							<p><span>Random facts</span><br/>
+							OS: Fedora/Windows 8<br/>
+							Text Editor: Sublime<br/>
+							Compiler(c++): Qt Creator<br/>
+							Food: Pizza<br/>
+							Drink: Coffee<br/>
+							Free time: Movies&Series</p>
+						</div>
+						<div class="box move2 col-md-4 col-sm-12">
+							<p><span>Learning right now</span><br/>
+								AngularJS<br/>
+								Javascript<br/>
+								</p>
+						</div>
+						<div class="box move2 col-md-4 col-sm-12">
+							<p><span>Want to learn in the future</span><br/>
+								AngularJS<br/>
+								Javascript<br/>
+								Meteor<br/>
+								JQuery<br/>
+								React</p>
+						</div>
+						<div class="box move col-md-12" id="portfolio">
+							<p>See my work at<br/><a href="http://www.tomasz.rudowi.cz/">www.tomasz.rudowi.cz</a></p>
+						</div>
+					</div>
+				</div>
 
-</body>
-</html>
+			</body>
+			</html>
