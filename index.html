@@ -7,13 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+
+
 	<script type="text/javascript" src="js/smoothscroll.js"></script>
-	<script type="text/javascript" src="js/move.js"></script>  
+	<script type="text/javascript" src="js/move.js"></script>
+	<script type="text/javascript" src="js/controller-oceny.js"></script>
+
 	<link href='https://fonts.googleapis.com/css?family=Exo+2:900,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 </head>
 
 
-<body>
+<body ng-app="aplikacjaOceny">
 	<div class="slide">
 		<video autoplay loop poster="pic/poster.jpg" id="bgvid">
 			<source src="video/night.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
@@ -30,39 +35,80 @@
 
 				<div class="slide" id="content">
 					<div class="myStuff">
-					<div class="aboutMe move col-md-12">
-						<article>
-							Hi there! My name is Tomasz and I am from Wrocław/Poland. I'm studying electronics on Wrocław University of Technology, and to be honest I'm doing well in this! Even I got an award(grant) for students with best marks. I'm interested in front-end for two years, and all this stuff is for me a good fun, hobby and hard work. In sites/web apps most important for me is simplicity and quality.
-						</article>
-					</div>
+						<div class="aboutMe move col-md-12">
+							<article>
+								Hi there! My name is Tomasz and I am from Wrocław/Poland. I'm studying electronics on Wrocław University of Technology, and to be honest I'm doing well in this! Even I got an award(grant) for students with best marks. I'm interested in front-end for two years, and all this stuff is for me a good fun, hobby and hard work. In sites/web apps most important for me is simplicity and quality.
+							</article>
+						</div>
 						<div class="box move2 col-md-4 col-sm-12">
 							<p><span>Random facts</span><br/>
-							OS: Fedora/Windows 8<br/>
-							Text Editor: Sublime<br/>
-							Compiler(c++): Qt Creator<br/>
-							Food: Pizza<br/>
-							Drink: Coffee<br/>
-							Free time: Movies&Series</p>
-						</div>
-						<div class="box move2 col-md-4 col-sm-12">
-							<p><span>Learning right now</span><br/>
-								AngularJS<br/>
-								Javascript<br/>
+								OS: Fedora/Windows 8<br/>
+								Text Editor: Sublime<br/>
+								Compiler(c++): Qt Creator<br/>
+								Food: Pizza<br/>
+								Drink: Coffee<br/>
+								Free time: Movies&Series</p>
+							</div>
+							<div class="box move2 col-md-4 col-sm-12">
+								<p><span>Learning right now</span><br/>
+									AngularJS<br/>
+									Javascript<br/>
 								</p>
-						</div>
-						<div class="box move2 col-md-4 col-sm-12">
-							<p><span>Want to learn in the future</span><br/>
-								AngularJS<br/>
-								Javascript<br/>
-								Meteor<br/>
-								JQuery<br/>
-								React</p>
-						</div>
-						<div class="box move col-md-12" id="portfolio">
-							<p>See my work at<br/><a href="http://www.tomasz.rudowi.cz/">www.tomasz.rudowi.cz</a></p>
+							</div>
+							<div class="box move2 col-md-4 col-sm-12">
+								<p><span>Want to learn in the future</span><br/>
+									AngularJS<br/>
+									Javascript<br/>
+									Meteor<br/>
+									JQuery<br/>
+									React</p>
+								</div>
+								<div class="box move2 col-md-12" ng>
+									<h2><a href="#spoiler1" class="spoiler-link">Look at my marks on studies!</a></h2>
+									<div class="spoiler" id="spoiler1">
+
+										<div class="container" ng-controller="kontrolerTabeliOcen">
+											<div class="row">
+												<div class="col-md-12 center-block">
+													<h1 class="text-center">Zestawienie moich {{oceny.length}} ocen z {{ile_semestrow}} semestrów.</h1>
+													<br/>
+													<div class="input-group">
+														<span class="input-group-addon">Szukaj: </span>
+														<input type="text" class="form-control" placeholder="Czego szukasz? Zacznij wpisywać np. progra(...)" ng-model="wyszukiwarka"> 
+													</div>
+													<br/>
+
+													<div class="table-responsive">
+														<table class="table table-hover">
+															<thead>
+																<tr>
+																	<th class="text-center" ng-repeat="naglowek in [
+																	'Semestr' , 'Przedmiot', 'Forma Zajęć', 'Ocena'
+																	]">
+																	{{naglowek}}
+																</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr ng-repeat='element in oceny | filter : wyszukiwarka'>
+																<td>{{element.Semestr}}</td>
+																<td>{{element.Przedmiot}}</td>
+																<td>{{element.Forma_zaj}}</td>
+																<td>{{element.Ocena}}</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="box col-md-12" id="portfolio">
+									<p>See my work at<br/><a href="http://www.tomasz.rudowi.cz/">www.tomasz.rudowi.cz</a></p>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-
-			</body>
-			</html>
+				</body>
+				</html>

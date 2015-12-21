@@ -99,8 +99,13 @@ h1 {
     -o-transition-duration: 400ms;
     transition-duration: 400ms;
 }
-
-
+tr:hover {
+	background-color: #5B6057 !important;
+}
+.spoiler-link {
+	text-decoration: none;
+	color: #fff !important;
+}
 
 /* button hover */
 /* Sink */

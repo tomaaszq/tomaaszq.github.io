@@ -12,3 +12,25 @@ $(document).ready(function(){
         $('div.move2').css({'top': x,'left': y}); 
   });
 });
+
+$(function() {
+   // Masquer par défaut les éléments (s'ils ne le sont pas déjà en CSS)
+   $('.spoiler').hide();
+
+   // Gestion de l'événement clic
+   $('.spoiler-link').on('click', function(e) {
+      // Valeur de l'attribut href à afficher
+      var idSpoiler = $(this).attr('href'),
+         classSelect = 'spoiler-link--active';
+
+      // Donner une classe au lien pour le styliser
+      // S'il y a déjà la classe, la retirer, sinon l'appliquer
+      $(this).toggleClass(classSelect);
+
+      // Afficher/Masquer le spoiler
+      $(idSpoiler).slideToggle(200);
+
+      // Empêche le déclenchement du lien
+      e.preventDefault();
+   });
+});
