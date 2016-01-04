@@ -6,188 +6,188 @@ var app = angular.module('aplikacjaOceny',[]);
 				$scope.oceny = [
   {
     "Semestr":1,
-    "Przedmiot":"Analiza matematyczna 1",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Mathematical Analysis 1.2",
+    "Forma_zaj":"Practice",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Analiza matematyczna 1",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Mathematical Analysis 1.2",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Miernictwo 1",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Measurement techniques 1",
+    "Forma_zaj":"Lecture",
     "Ocena":3.5
   },
   {
     "Semestr":1,
-    "Przedmiot":"Grafika inżynierska",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Graphics for engineers",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Grafika inżynierska",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Graphics for engineers",
+    "Forma_zaj":"Practice",
     "Ocena":4.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Technologie informacyjne",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Information technologies",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Technologie informacyjne",
-    "Forma_zaj":"Laboratorium",
+    "Przedmiot":"Information technologies",
+    "Forma_zaj":"Laboratory",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Filozofia",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Philosophy",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Podstawy programowania",
-    "Forma_zaj":"Laboratorium",
+    "Przedmiot":"Programming Principles",
+    "Forma_zaj":"Laboratory",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Podstawy programowania",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Programming Principles",
+    "Forma_zaj":"Practice",
     "Ocena":4.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Podstawy programowania",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Programming Principles",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Algebra z geometrią analityczną",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Algebra and Analytic Geometry",
+    "Forma_zaj":"Practice",
     "Ocena":4.5
   },
   {
     "Semestr":1,
-    "Przedmiot":"Algebra z geometrią analityczną",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Algebra and Analytic Geometry",
+    "Forma_zaj":"Lecture",
     "Ocena":4.5
   },
   {
     "Semestr":1,
-    "Przedmiot":"Własność intelektualna i prawo autorskie",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Intellectual Property Law and Copyright",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   },
   {
     "Semestr":1,
-    "Przedmiot":"Etyka inżynierska",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Engineering Ethics",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
     "Przedmiot":"Multimedia",
-    "Forma_zaj":"Wykład",
+    "Forma_zaj":"Lecture",
     "Ocena":3.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Elektromagnetyzm",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Electromagnetic",
+    "Forma_zaj":"Lecture",
     "Ocena":3.5
   },
   {
     "Semestr":2,
-    "Przedmiot":"Systemy operacyjne",
-    "Forma_zaj":"Laboratorium",
+    "Przedmiot":"Operating Systems",
+    "Forma_zaj":"Laboratory",
     "Ocena":5.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Systemy operacyjne",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Operating Systems",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Miernictwo 2",
-    "Forma_zaj":"Laboratorium",
+    "Przedmiot":"Measurement techniques 2",
+    "Forma_zaj":"Laboratory",
     "Ocena":5.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Podstawy Telekomunikacji",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Principles of telecomunications",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Teoria systemów",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Systems Theory",
+    "Forma_zaj":"Practice",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Teoria systemów",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Systems Theory",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Fizyka 1.1",
-    "Forma_zaj":"Ćwiczenia",
+    "Przedmiot":"Physic 1.1",
+    "Forma_zaj":"Practice",
     "Ocena":3.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Fizyka 1.1",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Physic 1.1",
+    "Forma_zaj":"Lecture",
     "Ocena":3.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Programowanie Obiektowe",
-    "Forma_zaj":"Laboratorium",
+    "Przedmiot":"Object Programming",
+    "Forma_zaj":"Laboratory",
     "Ocena":4.5
   },
   {
     "Semestr":2,
-    "Przedmiot":"Programowanie Obiektowe",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Object Programming",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Analiza matematyczna 2.3",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Mathematical Analysis 2.3",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Rachunek prawdopodobieństwa",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Probability Theory",
+    "Forma_zaj":"Lecture",
     "Ocena":4.0
   },
   {
     "Semestr":2,
-    "Przedmiot":"Matematyka",
-    "Forma_zaj":"Wykład",
+    "Przedmiot":"Mathematics",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   },
   {
     "Semestr":2,
     "Przedmiot":"Squash",
-    "Forma_zaj":"Ćwiczenia",
+    "Forma_zaj":"Practice",
     "Ocena":5.0
   }
 ];

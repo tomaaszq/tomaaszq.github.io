@@ -70,11 +70,11 @@
 										<div class="container" ng-controller="kontrolerTabeliOcen">
 											<div class="row">
 												<div class="col-md-12 center-block">
-													<h1 class="text-center">Zestawienie moich {{oceny.length}} ocen z {{ile_semestrow}} semestrów.</h1>
+													<h1 class="text-center">There are my {{oceny.length}} marks from {{ile_semestrow}} semesters.</h1>
 													<br/>
 													<div class="input-group">
-														<span class="input-group-addon">Szukaj: </span>
-														<input type="text" class="form-control" placeholder="Czego szukasz? Zacznij wpisywać np. progra(...)" ng-model="wyszukiwarka"> 
+														<span class="input-group-addon">Find: </span>
+														<input type="text" class="form-control" placeholder="What are you looking for? Start writing ex. progra(...)" ng-model="wyszukiwarka"> 
 													</div>
 													<br/>
 
@@ -83,7 +83,7 @@
 															<thead>
 																<tr>
 																	<th class="text-center" ng-repeat="naglowek in [
-																	'Semestr' , 'Przedmiot', 'Forma Zajęć', 'Ocena'
+																	'Semester' , 'Course', 'Type', 'Mark'
 																	]">
 																	{{naglowek}}
 																</th>
