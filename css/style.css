@@ -104,9 +104,15 @@ tr:hover {
 }
 .spoiler-link {
 	text-decoration: none;
-	color: #fff !important;
+	color: #ff1654 !important;
 }
-
+.spoiler-link:hover {
+	color: #EB6B52 !important;
+	-webkit-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
 /* button hover */
 /* Sink */
 .btn {
