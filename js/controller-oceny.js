@@ -2,7 +2,7 @@ var app = angular.module('aplikacjaOceny',[]);
 
 			app.controller('kontrolerTabeliOcen' , [ '$scope' , '$filter' , function($scope,$filter)
 			{
-        $scope.ile_semestrow = 2;
+        $scope.ile_semestrow = 3;
 				$scope.oceny = [
   {
     "Semestr":1,
@@ -188,6 +188,84 @@ var app = angular.module('aplikacjaOceny',[]);
     "Semestr":2,
     "Przedmiot":"Squash",
     "Forma_zaj":"Practice",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Introduction into control engineering and robotics",
+    "Forma_zaj":"Laboratory",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Introduction into control engineering and robotics",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Electromagnetic",
+    "Forma_zaj":"Practice",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Multimedia",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Measurement techniques 3",
+    "Forma_zaj":"Practice",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Measurement techniques 3",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Digital Systems 1",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Foundations of signal processing",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Foundations of signal processing",
+    "Forma_zaj":"Laboratory",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Statistics with applications in engineering",
+    "Forma_zaj":"Practice",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Statistics with applications in engineering",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Physics 3.1",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Principles of Quality Management",
+    "Forma_zaj":"Lecture",
     "Ocena":5.0
   }
 ];
