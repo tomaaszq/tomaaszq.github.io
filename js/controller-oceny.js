@@ -267,6 +267,18 @@ var app = angular.module('aplikacjaOceny',[]);
     "Przedmiot":"Principles of Quality Management",
     "Forma_zaj":"Lecture",
     "Ocena":5.0
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Analogue technology",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":3,
+    "Przedmiot":"Analogue technology",
+    "Forma_zaj":"Laboratory",
+    "Ocena":3.5
   }
 ];
 			}
