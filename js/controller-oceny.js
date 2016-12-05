@@ -2,7 +2,7 @@ var app = angular.module('aplikacjaOceny',[]);
 
 			app.controller('kontrolerTabeliOcen' , [ '$scope' , '$filter' , function($scope,$filter)
 			{
-        $scope.ile_semestrow = 3;
+        $scope.ile_semestrow = 4;
 				$scope.oceny = [
   {
     "Semestr":1,
@@ -279,6 +279,109 @@ var app = angular.module('aplikacjaOceny',[]);
     "Przedmiot":"Analogue technology",
     "Forma_zaj":"Laboratory",
     "Ocena":3.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Foundations of Microprocessor Techniques",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Construction of electronic devices",
+    "Forma_zaj":"Project",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Computional and Simulating Techniques",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Electronic circuits 1",
+    "Forma_zaj":"Project",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Digital Systems 2",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Computer Networks",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"English language / B2.2",
+    "Forma_zaj":"Practice",
+    "Ocena":4.5
+  }
+  ,
+  {
+    "Semestr":4,
+    "Przedmiot":"Foundations of Microprocessor Techniques",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Electroacoustics 1",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Construction of electronic devices",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Introduction to photonics",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Semiconductor devices 2",
+    "Forma_zaj":"Laboratory",
+    "Ocena":5.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Computional and Simulating Techniques",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Semiconductor devices",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Electronic circuits 1",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Digital Systems 2",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":4,
+    "Przedmiot":"Computer Networks",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
   }
 ];
 			}
