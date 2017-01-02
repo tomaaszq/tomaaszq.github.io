@@ -382,6 +382,30 @@ var app = angular.module('aplikacjaOceny',[]);
     "Przedmiot":"Computer Networks",
     "Forma_zaj":"Lecture",
     "Ocena":4.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Digital Signal Processors",
+    "Forma_zaj":"Laboratory",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Programming in internet",
+    "Forma_zaj":"Project",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Programming in internet",
+    "Forma_zaj":"Lecture",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Electronic circuits 2",
+    "Forma_zaj":"Laboratory",
+    "Ocena":5.0
   }
 ];
 			}
