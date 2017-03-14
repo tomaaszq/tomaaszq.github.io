@@ -393,19 +393,97 @@ var app = angular.module('aplikacjaOceny',[]);
     "Semestr":5,
     "Przedmiot":"Programming in internet",
     "Forma_zaj":"Project",
-    "Ocena":5.0
+    "Ocena":5.5
   },
   {
     "Semestr":5,
     "Przedmiot":"Programming in internet",
     "Forma_zaj":"Lecture",
-    "Ocena":5.0
+    "Ocena":5.5
   },
   {
     "Semestr":5,
     "Przedmiot":"Electronic circuits 2",
     "Forma_zaj":"Laboratory",
     "Ocena":5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Microcontroller Applications",
+    "Forma_zaj":"Laboratory",
+    "Ocena": 5.5
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Electronic Components 3",
+    "Forma_zaj":" Laboratory",
+    "Ocena": 4.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Measurement in Acoustics",
+    "Forma_zaj":"Lecture",
+    "Ocena": 5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Psychoacoustics and Technology of Sound Recording",
+    "Forma_zaj":"Lecture",
+    "Ocena": 4.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Electroacoustics 2",
+    "Forma_zaj":"Laboratory",
+    "Ocena": 4.5
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Consumer and home electronics",
+    "Forma_zaj":"Lecture",
+    "Ocena": 5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Data acqusition and processing systems",
+    "Forma_zaj":"Laboratory",
+    "Ocena": 5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Data acqusition and processing systems",
+    "Forma_zaj":"Lecture",
+    "Ocena": 5.5
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Digital Signal Processors",
+    "Forma_zaj":"Lecture",
+    "Ocena": 5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Optoelectronics 1",
+    "Forma_zaj":"Lecture",
+    "Ocena": 3.5
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Optimization-advanced computing techniques",
+    "Forma_zaj":"Laboratory",
+    "Ocena": 5.0
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"Optimization-advanced computing techniques",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":5,
+    "Przedmiot":"German language A1",
+    "Forma_zaj":"Practice",
+    "Ocena":4.0
   }
 ];
 			}
