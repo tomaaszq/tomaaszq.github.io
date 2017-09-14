@@ -2,7 +2,7 @@ var app = angular.module('aplikacjaOceny',[]);
 
 			app.controller('kontrolerTabeliOcen' , [ '$scope' , '$filter' , function($scope,$filter)
 			{
-        $scope.ile_semestrow = 5;
+        $scope.ile_semestrow = 6;
 				$scope.oceny = [
   {
     "Semestr":1,
