@@ -484,6 +484,90 @@ var app = angular.module('aplikacjaOceny',[]);
     "Przedmiot":"German language A1",
     "Forma_zaj":"Practice",
     "Ocena":4.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Technical Acoustics and Sound Engineering",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Measurement in Acoustics",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Ultrasonic Technology",
+    "Forma_zaj":"Lecture",
+    "Ocena":5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Ultrasonic Technology",
+    "Forma_zaj":"Seminar",
+    "Ocena":5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Psychoacoustics and Technology of Sound Recording",
+    "Forma_zaj":"Laboratory",
+    "Ocena":4.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Noise and Vibration Control",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Musical Acoustics",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Realization of Sound",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Realization of Sound",
+    "Forma_zaj":"Seminar",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Architectural Acoustics",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Electroacoustical devices",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Team Project",
+    "Forma_zaj":"Project",
+    "Ocena":5.0
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Electroacoustic systems",
+    "Forma_zaj":"Lecture",
+    "Ocena":3.5
+  },
+  {
+    "Semestr":6,
+    "Przedmiot":"Telecomunication acoustics",
+    "Forma_zaj":"Lecture",
+    "Ocena":4.0
   }
 ];
 			}
